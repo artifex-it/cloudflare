@@ -61,7 +61,7 @@ function cloudflare_init() {
 		}
 		else {
 			$cf_ip_ranges = array("2400:cb00::/32","2606:4700::/32","2803:f800::/32","2405:b500::/32","2405:8100::/32");
-			$ipv6 = get_ipv6_full($_SERVER["REMOTE_ADDR"]);
+			$ipv6 = get_ipv6_full($_SERVER["HTTP_X_CLIENT_IP"] ? $_SERVER["HTTP_X_CLIENT_IP"] : $_SERVER["REMOTE_ADDR"]);
 			foreach ($cf_ip_ranges as $range) {
 				if (ipv6_in_range($ipv6, $range)) {
 					if ($_SERVER["HTTP_CF_CONNECTING_IP"]) {
