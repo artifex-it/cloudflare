@@ -3,8 +3,8 @@
 Plugin Name: CloudFlare
 Plugin URI: http://www.cloudflare.com/wiki/CloudFlareWordPressPlugin
 Description: CloudFlare integrates your blog with the CloudFlare platform.
-Version: 1.3.18
-Author: Ian Pye, Jerome Chen, James Greene, Simon Moore, David Fritsch (CloudFlare Team)
+Version: 1.3.18-art
+Author: Ian Pye, Jerome Chen, James Greene, Simon Moore, David Fritsch (CloudFlare Team), Paolo Betti
 License: GPLv2
 */
 
