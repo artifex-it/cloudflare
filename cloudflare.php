@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: CloudFlare
+Plugin Name: Art_CloudFlare
 Plugin URI: http://www.cloudflare.com/wiki/CloudFlareWordPressPlugin
 Description: CloudFlare integrates your blog with the CloudFlare platform.
 Version: 1.3.18-art
