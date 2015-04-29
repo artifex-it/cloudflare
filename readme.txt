@@ -1,9 +1,9 @@
 === CloudFlare ===
-Contributors: i3149, jchen329, jamescf, simon-says, dfritsch
+Contributors: i3149, jchen329, jamescf, simon-says, dfritsch, Paolo Betti
 Tags: cloudflare, comments, spam, cdn, free, website, performance, speed
 Requires at least: 2.8
 Tested up to: 4.1
-Stable tag: 1.3.18
+Stable tag: 1.3.18-art
 License: GPLv2
 
 The CloudFlare WordPress Plugin ensures your WordPress blog is running optimally on the CloudFlare platform.
@@ -37,6 +37,10 @@ You will also want to sign up your blog with CloudFlare.com
 [Read more](http://blog.cloudflare.com/introducing-the-cloudflare-wordpress-plugin) on why we created this plugin.
 
 == Changelog ==
+
+= 1.3.18-art =
+
+* Fixed IP detection on OpenShift
 
 = 1.3.18 =
 
